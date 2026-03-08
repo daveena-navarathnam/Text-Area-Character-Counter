@@ -1,0 +1,34 @@
+.counter {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 14px;
+
+
+}
+
+#textarea {
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width :768px) {
+    .textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width :480px) {
+    .textarea {
+        width: 100%;
+    }
+}
